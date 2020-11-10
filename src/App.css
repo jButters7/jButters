@@ -1,7 +1,35 @@
+:root{
+  --light-blue: #4e89ae;
+  --cream: #ffa372;
+  --blue: #43658b ;
+  --red: #ed6663;
+}
+
+*{
+  box-sizing: border-box;
+}
+/* 
+img{
+  max-width: 350px;
+} */
+
 .App {
   text-align: center;
 }
 
+.blue-text{
+  color: var(--blue)
+}
+
+.cream-text{
+  color: var(--cream)
+}
+
+.red-text{
+  color: var(--red)
+}
+
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +63,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

@@ -1,0 +1,43 @@
+.stack{
+  background-color: var(--red);
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  /* z-index: -100; */
+  /* margin-top: -140px; */
+}
+
+.tech-logo-container{
+display: flex;
+flex-wrap: wrap;
+box-sizing: border-box;
+justify-content: center;
+}
+
+.tech-logos{
+  height: 50px;
+}
+
+.individual-stack {
+  margin: 10px;
+}
+
+.individual-stack p{
+  font-size: 16px;
+}
+
+#stack h3{
+  font-size: 30px;
+  line-height: 1.125;
+  font-size: 35px;
+  font-weight: 800;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+/* 
+
+
+
+
+
+ */

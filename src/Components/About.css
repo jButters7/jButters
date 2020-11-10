@@ -1,0 +1,72 @@
+.about-container{
+/* height: 100px; */
+width: 100%;
+background: var(--red);
+color: #ffffff;
+padding: 20px 40px;
+/* padding-top: 20; */
+padding-bottom: 200px;
+text-decoration: none;
+}
+
+.about-me-text{
+  font-size: 30px;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.about-paragraph{
+ text-align: left;
+ font-size: 20px;
+ line-height: 25px;
+ margin-bottom: -20px;
+ margin-right: 30px;
+}
+
+.computer-resume{
+  text-decoration: none;
+}
+
+.computer-resume h4{
+  margin-top: 10px;
+  color: white;
+} 
+
+.paragraph-and-icon{
+  padding: 0 30px;
+}
+
+/* .computer-resume{
+  display: flex;
+  flex-direction: column;
+  line-height: 1.125;
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 30px;
+} */
+/* 
+
+.computer-icon{
+  margin: auto 10px;
+  
+}
+
+*/
+
+@media all and (min-width: 820px){
+  .about-paragraph{
+    margin-right: 30px;
+  }
+
+  .computer-icon{
+    margin-top: -35px;
+  }
+  
+  .paragraph-and-icon{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+  } 
+}
+
+

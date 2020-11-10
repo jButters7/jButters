@@ -1,0 +1,50 @@
+
+.projects{
+  padding: 20px 15px;
+  border-radius: 10px;
+  margin: 0 15px;
+  margin-top: -140px;
+  background-color: white;
+}
+
+.title{
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.projects-container a{
+  text-decoration: none;
+  display: inline-block;
+}
+
+.project{
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--blue);
+  cursor: pointer;
+  /* margin-bottom: 20px; */
+  max-width: 400px;
+  margin: 10px;
+  box-shadow: 0px 0px 25px -3px rgba(0,0,0,0.75);
+}
+
+.project:hover{
+  box-shadow: none
+}
+
+.product-img{
+  width: 290px;
+  margin: 10px;
+}
+
+@media all and (min-width: 820px){
+  .project {
+    width: 800px;
+    margin: 10px;
+  }
+
+  .product-img{
+    height: 200px;
+  }
+}
