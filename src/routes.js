@@ -9,7 +9,7 @@ export default (
   <div>
     <Route path='/' component={NavBar} />
     <Switch>
-      <Route path='/landing' component={Landing} />
+      <Route lpath='/landing' component={Landing} />
       <Route path='/about' component={About} />
       <Route path='/projects' component={Projects} />
       <Route path='/stack' component={Stack} />
