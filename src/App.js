@@ -6,6 +6,8 @@ import Stack from './Components/Stack';
 import Projects from './Components/Projects';
 import NavBar from './Components/NavBar';
 import About from './Components/About';
+// import routes from './routes';
+import BuncoDice from './Components/sideProjects/buncoDice/BuncoDice';
 
 
 function App() {
@@ -17,6 +19,7 @@ function App() {
         <About />
         <Projects />
         <Stack />
+        <BuncoDice />
       </div>
 
     </div>
