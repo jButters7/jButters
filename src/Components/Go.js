@@ -2,7 +2,7 @@ import React from 'react';
 import './About.css';
 import computer from '../assets/computer.png'
 
-const About = () => {
+const Go = () => {
   return (
     <section className='about-container' id='about'>
       <h3 className='about-me-text'>About Me</h3>
@@ -21,4 +21,4 @@ const About = () => {
   )
 }
 
-export default About;
+export default Go;
